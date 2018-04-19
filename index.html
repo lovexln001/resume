@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简历生成器</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <img src="static/image/me.jpg" alt="">
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >赵斌斌</h1>
+                <h4 id="persona-tag" >Python、c / linux / 后端</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">赵斌斌</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">宁波大红鹰学院</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2013</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">15869110517</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">lovexln001@163.com</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/lovexln001</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Python</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">c</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">perl</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                        <label class="left-label">html/css</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">后端</label><span class="label-value">Flask、MySQL、Redis、linux</span></li>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>宁波大红鹰学院 - 机械设计制造及其自动化（本科）2009-2013</h3>
+                        <p>
+                            本科期间，学习了本专业相关课程，完成毕设，取得相关学位。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>自学阶段 - 2016.1-2018.4</h3>
+                        <p>
+                            这期间，学习了c、python、perl等编程语言和计算机原理，linux、算法、数据结构。并在leetcode有相关内容实践。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>2016.1 - 2016.8 | 杭州信雅达科技有限公司 - 加密机,linux c开发</h3>
+                        <b>工作描述</b>
+                        <p>1.加密软件界面功能添加。</p>
+                        <p>2.单元测试及文档编写。</p>
+                        <p>3.实地技术支持。</p>
+                    </li>
+                    <li>
+                        <b>工作描述</b>
+                        <h3>2016.8 - 至今 | 杭州和壹基因科技有限公司 - 信息处理,perl、python开发</h3>
+                        <p>1.基因组装流程搭建(perl)。 </p>
+                        <p>2.自动化报告实现(python)。 </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>自动化报告实现</h3>
+                        <b>责任描述:</b>
+                            <p>1.负责完成自动化报告程序。</p>
+                        <b>项目描述:</b>
+                            <p>1.获取病人信息:使用requests模块提取对应信息</p>
+                            <p>2.自动选择模板:销售录入产品名称与模板名称可能存在差异，并不能简单使用hash，使用regex提取关键信息解决，再使用hash。</p>
+                            <p>4.信息处理:对注释数据进行清洗及整理。</p>
+                            <p>3.模板内容替换:采用模板与代码分析的模式，提升工作效率。使用mailmerge模块，对模板中的关键字及表格进行替换。</p>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>CET-4</h3>
+                        <p></p>
+                    </li>                   
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                我是一个负责的人，平时工作从不捻轻怕重。热爱IT行业，热爱生活，待人真诚。但是，平时交流能力方面有点欠缺，但为人礼貌，低调做人。勤勉务实，注重理论与实践的有效结合；进取意识强烈，虚心好学；能承担较大的工作量及较强的工作压力。
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
