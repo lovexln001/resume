@@ -74,7 +74,7 @@
                         <label class="left-label">语言</label><span class="label-value">python、c</span></li>
                         <label class="left-label">开发环境</label><span class="label-value">linux</span></li>
                         <label class="left-label">数据库</label><span class="label-value">mysql、redis</span></li>
-                        <label class="left-label">网络通信</label><span class="label-value">TCP/IP、socket编程</span></li>
+                        <label class="left-label">网络</label><span class="label-value">TCP/IP、socket编程</span></li>
                         <label class="left-label">版本管理</label><span class="label-value">git</span></li>
                         <label class="left-label">其他</label><span class="label-value">gcc、make、gdb</span></li>
                     </li>
@@ -100,12 +100,6 @@
                         <h3>宁波大红鹰学院 - 机械设计制造及其自动化（本科）2009-2013</h3>
                         <p>
                             本科期间，学习了本专业相关课程，完成毕设，取得相关学位。
-                        </p>
-                    </li>
-                    <li>
-                        <h3>自学阶段 - 2016.1-2018.1</h3>
-                        <p>
-                            这期间，学习了c、python、perl等编程语言和计算机原理，linux、算法、数据结构。并在leetcode有相关内容实践。
                         </p>
                     </li>
                 </ul>
@@ -134,25 +128,18 @@
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>自动化报告实现</h3>
+                        <h3>精准医疗自动化报告</h3>
                         <b>责任描述:</b>
-                            <p>1.负责完成自动化报告程序。</p>
+                            <p>1.该项目主要是对生物注释结果进行清洗及整理（python、pandas)，并自动化进行展示。</p>
+                            <p>2.使用mailmerge模块，对doc类文件进行替换。</p>
+                            <p>3.文档的编写。</p>
                         <b>项目描述:</b>
                             <p>1.获取病人信息:使用requests模块提取对应信息</p>
-                            <p>2.自动选择模板:销售录入产品名称与模板名称可能存在差异，并不能简单使用hash，使用regex提取关键信息解决，再使用hash。</p>
+                            <p>2.使用mongoDB数据库对病人的信息及订单信息进行了存储。</p>
                             <p>3.信息处理:对注释数据进行清洗及整理。</p>
-                            <p>4.模板内容替换:采用模板与代码分析的模式，提升工作效率。使用mailmerge模块，对模板中的关键字及表格进行替换。</p>
-                        </p>
-                    </li>
-                    <li>
-                        <h3>样本管理系统-基因健康类产品</h3>
-                        <b>责任描述:</b>
-                            <p>1.使用nodejs框架进行开发。</p>
-                            <p>2.在原有基础上增加基因健康类产品：</p>
-                        <b>项目描述:</b>
-                            <p>1.加入基因健康类病人信息页面及api接口。</p>
-                            <p>2.加入基因健康类样本信息页面及api接口。</p>
-                            <p>3.修改基因健康类相关页面及api接口。</p>
+                            <p>4.使用regex正则表达统一了订单信息（所需报告），模板名称，及报告名称。</p>
+                            <p>5.使用redis对重要数据进行了缓存。</p>
+                            <p>6.使用多进程pool提高程序了程序效率。</p>
                         </p>
                     </li>
                 </ul>
@@ -169,10 +156,11 @@
             <div class="aboutme info-unit right-paragraph">
                 <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
                 <hr>
-                <p>1.有责任心，做事认真，对工作负责。</p>
-                <p>2.适应性好，能快速适应环境。</p>
-                <p>3.较自律性，能保质保量完成工作。</p>
-                <p>4.沟通能力佳，与产品同事合作很顺利。</p>
+                <p>1.有责任心，敢于承担：自动化报告之前是一个博士的项目，离职后并由我接手。该项目维护性极差无法满足生产需求，只能重新开发。</p>
+                <p>2.适应性好：在2周内学习nodejs框架并进行开发任务。</p>
+                <p>3.效率高：能保质保量完成工作任务。</p>
+                <p>4.较自律，在业余时间学习了：计算机原理（深入理解计算机系统），C（K&R），python, 数据结构（栈、队列、堆、链表、二叉树、hash等），算法（排序、动态规划等）、网络（socket、TCP/IP)，数据库（mysql、redis）。</p>
+                <p>5.工具使用：git版本管理, docker容器（较少），gcc、make、gdb（三件套），subline、vim编辑器。 </p>
             </div>
         </div>
     </div>
